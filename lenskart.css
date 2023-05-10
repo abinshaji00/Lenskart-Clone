@@ -1,0 +1,490 @@
+/* ----------------fonts---------------- */
+@font-face {
+    font-family:'futura';
+    src: url(lenskart/futura/futur.ttf);
+}
+@font-face {
+    font-family: 'rajdhani';
+    src: url(lenskart/Rajdhani/Rajdhani-Medium.ttf);
+}
+/* ---------------commen------------- */
+body{
+    border: 0;
+    margin: 0;
+}
+a{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding-left:10px;   
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center; 
+}
+/* --------------head---------------- */
+.position{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white; 
+    flex-direction: column;
+    position: fixed;
+}
+/* ------------firstline-------------- */
+.position1{
+    display: flex;
+    background-color:white;
+    height: 27px;
+    align-items: end;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.position1a{
+    display: flex;
+    justify-content: center;
+}
+.firstline{
+    font-family: 'rajdhani';
+    font: bold;
+    font-size: 10px;
+}
+/* ------------Second line--------- */
+.position2
+{
+    display: flex;
+    height: 50;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.position2a{
+    display: flex;   
+}
+.input{
+    height: 30px;
+    border-radius: 5px;
+    border: o.5px solid black;
+}
+.a1{
+    font-size: 12px;
+}
+/* ----------third line--------------  */
+.position3{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: rgba(233, 231, 221, 0.67);
+}
+.position3a{
+    display: flex;
+}
+.thirdline{
+    font-size: 14px;
+}
+.thirdbutton{
+    height: 50px;
+    border-radius: 10px;
+}
+/* --------------forth line---------- */
+.position4{
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(233, 231, 221, 0.67);    
+}
+.text4{
+    color: rgb(163, 138, 101);
+    align-items: center;
+    margin-bottom: 10px;
+}
+.position4a{
+    border-radius: 15px;
+    border: o.5px solid black;
+    height: 110px;
+    width: 220px;
+}
+/* ---------------eight line---------------- */
+.position8{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.position8a
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+}
+.position8b{
+    display: flex;
+    flex-direction: column;
+    padding:40px;
+    align-items: center;
+}
+.p8a{
+    font-family: 'rajdhani';
+    font-size: 50px;
+}
+.p8b{
+    font-family: 'futura';
+    font-size: 16px;
+    
+}
+.position8_pic{
+    border-radius: 15px;
+    height: 110px;
+    width: 220px;
+}
+.button8a{
+    height: 40px;
+    width: 140px;
+    background-color: #56b7c3;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    color: white;
+    border-color: #56b7c3;
+}
+.position8c{
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+.position8d{
+    display: flex;
+    justify-content: end;
+    width: 205px;
+}
+/* ----------------position9----------------- */
+
+.position9{
+    display: flex;
+    align-items: center;
+}
+.position9t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position9i{
+    width: 420px;
+}
+/* ---------------line 11---------------------- */
+.position11{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position11t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position11i{
+    width: 610px;
+}
+/* -----------------line 13-------------------- */
+.position13{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position13t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position13i{
+    width: 610px;
+}
+/* -----------------line 15-------------------- */
+.position15{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position15t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position15i{
+    width: 610px;
+}
+/* -----------------line 17-------------------- */
+.position17{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position17t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position17i{
+    width: 720px;
+}
+/* -----------------line 19-------------------- */
+.position19{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position19t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position19i{
+    width: 500px;
+}
+/* -----------------line 21-------------------- */
+.position21{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position21t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position21i{
+    width: 580px;
+}
+/* --------------LINE 22-------------------- */
+.position22{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.position22ab{
+    display: flex;
+    flex-direction:column;
+}
+.img1{
+    height: 740px;
+    width: 610px;
+}
+.img2{
+    height: 350px;
+    width: 610px;
+}
+.img3{
+    padding-left: 10px;
+    padding-top: 36px;
+    height: 350px;
+    width: 610px;
+}
+/* ------------------position 23--------------------------- */
+.position23{
+    display: flex;
+    height: 350px;
+    width: 610px;
+    padding-left: 145px;
+}
+/* --------------------position 24-------------------------- */
+.position24{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position24t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position24i{
+    width: 430px;
+}
+/* ----------------------position 25------------------------- */
+.position25{
+    display: flex;
+    padding-left: 145px;
+    height: 345px;
+    width: 1240px;
+}
+/* ------------------------position 26------------------------ */
+.position26
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position26t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position26i{
+    width: 560px;
+}
+/* ------------------------position 27------------------------ */
+.position27{
+    display: flex;
+    padding-left: 145px;
+    height: 345px;
+    width: 1240px;
+}
+/* -------------------------position 28------------------------ */
+.position28
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position28t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position28i{
+    width: 620px;
+}
+/* ---------------------------position 29---------------------- */
+.position29{
+    display: flex;
+    justify-content:space-around;
+}
+.position29a{
+    width: 700px;
+    height: 270px;
+}
+.position29b{
+    width: 700px;
+    height: 270px;
+}
+/* ----------------------------position 30-------------------- */
+.position30{
+    display: flex;
+    justify-content:space-around;
+}
+.position30a{
+    width: 700px;
+    height: 340px;
+}
+.position30b{
+    width: 700px;
+    height: 340px;
+}
+/* -------------------------position 31---------------------- */
+.position31
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position31t{
+    font-size: 30px;
+    font-family: 'futura';
+}
+.position31i{
+    width: 620px;
+}
+/* -----------------------------position 32---------------------------------- */
+.position32{
+    width: 100%;
+    height: 280px;
+}
+/* ----------------------------position 33----------------------------------- */
+.position33{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.position33a{
+    color: darkcyan;
+}
+/* ----------------------------------position 34------------------------------ */
+.position34{
+    display: flex;
+    justify-content:center;
+    background-color: white;
+}
+.position34a{
+    display: flex;
+    align-items: center;
+    height: 160px;
+}
+/* ------------------------- */
+.line1{
+    padding-left: 300px;
+    width: 60%;
+    height: 30px;
+}
+/* ----------------------------- */
+.secondlast{
+    display: flex;
+    justify-content: center;
+    background-color:#fff092;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'futura';
+} 
+.lastline{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff092;
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+/* ---------------------------end of page----------------------------------------- */
+.mainlast{
+    display: flex;
+    flex-direction: column;
+    background-color:#000042 ;
+    color:white ;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.main2a{
+    display: flex;
+    justify-content: space-between;
+}
+.main2a1{
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+}
+.main2a1a{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.main2a1b{
+    display: flex;
+    justify-content: center;
+}
+.main2a1c{
+    display: flex;
+    justify-content: space-evenly;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.final1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.pclass{
+    color: white;
+}
+.final2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.backbutton{
+    cursor: pointer;
+    background-color: transparent;
+    position: fixed;
+    bottom:20px;
+    right: 20px; 
+    margin: 0px;
+    border-color: transparent;
+  }
